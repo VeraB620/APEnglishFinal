@@ -1,0 +1,308 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+body{
+	background-color: #DAF7DC;
+}
+
+.container{
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.heading {
+	display: block;
+	position: relative;
+	width: 100%;
+	height: 200px;
+	text-align: center;
+	border:5px double #42273B;
+
+
+}
+.heading h1{
+	padding-top: 10px;
+	color:#ABC8C0;
+	font-size: 30px;
+	
+}
+
+.heading p1{
+	color: #60566D;
+	font-size: 50px;
+}
+
+
+
+.summary{
+
+	margin-top: 50px;
+	position: absolute;
+	font-size: 40px;
+	height: 450px;
+	width: 480px;
+	text-align: left;
+}
+.summarytotal{
+	display: block;
+}
+
+.summary p{
+	color:#42273B;
+	font-size: 35px;
+	font-family: 'Nunito', sans-serif;
+	border-right: solid 8px;
+	border-color: #9EE493;
+}
+.summarytotal p{
+	padding-right: 20px;
+	color: black;
+	font-size: 21px;
+	font-family: 'Open Sans', sans-serif;
+}
+.summarytotal i{
+	font-size: 15px;
+}
+
+
+.pic1{
+	margin-top: 55px;
+	padding-top: 5px;
+	position: absolute;
+	height: 450px;
+	width: 480;
+	margin-left: 480px;
+	padding-left: 125px;
+	opacity: 0.4;
+}
+.pic1:hover{
+	opacity: 1.0;
+}
+
+.FreudTitle {
+	font-family: 'Nunito', sans-serif;
+	color:#42273B;
+
+	margin-top: 600px;
+	position: absolute;
+	font-size: 35px;
+	height: 100px;
+	width: 960px;
+	text-align: left;
+}
+.FreudElectra {
+	margin-top: 660px;
+	position: absolute;
+	font-size: 21px;
+	height: 400px;
+	width: 400px;
+	text-align: left;
+	font-family: 'Open Sans', sans-serif;
+
+
+}
+.FreudOpedius {
+	margin-top: 660px;
+	position: absolute;
+	font-size: 21px;
+	height: 400px;
+	width: 400px;
+	margin-left: 480px;
+	padding-left: 100px;
+	text-align: left;
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+.FreudSummary {
+	
+	margin-top: 970px;
+	position: absolute;
+	font-size: 20px;
+	height: 100px;
+	width: 960px;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.Thesis{
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-top: 1100px;
+	position: absolute;
+	font-size: 40px;
+	height: 165px;
+	width: 960px;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	color: #42273B;
+}
+.Thesis b{
+	color: #ABC8C0;
+	font-size: 20px;
+}
+.Thesis:hover{
+	background-color:#9EE493; 
+}
+
+.ProofinText{
+	font-family: 'Nunito', sans-serif;
+	color:#42273B;
+	margin-top: 1350px;
+	position: absolute;
+	font-size: 35px;
+	height: 100px;
+	width: 960px;
+	text-align: left;
+}
+
+.DF {
+	margin-top: 1410px;
+	position: absolute;
+	font-size: 21px;
+	height: 600px;
+	width: 300px;
+	text-align: left;
+	font-family: 'Open Sans', sans-serif;
+
+}
+.MS{
+	margin-top: 1410px;
+	margin-left: 330px;
+	position: absolute;
+	font-size: 21px;
+	height: 600px;
+	width: 300px;
+	text-align: left;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.AB {
+	margin-top: 1410px;
+	margin-left: 660px;
+	position: absolute;
+	font-size: 21px;
+	height: 600px;
+	width: 300px;
+	text-align: left;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.ProofinEra{
+	margin-top: 1750px;
+	position: absolute;
+	font-size: 21px;
+	height: 600px;
+	width: 480px;
+	text-align: left;
+	font-family: 'Open Sans', sans-serif;
+}
+.ProofinEra b{
+	font-family: 'Nunito', sans-serif;
+	color:#42273B;
+	font-size: 35px;
+
+}
+
+.relevance{
+	margin-top: 1750px;
+	position: absolute;
+	margin-left: 490px;
+	font-size: 21px;
+	height: 600px;
+	width: 480px;
+	text-align: left;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.relevance b{
+	font-family: 'Nunito', sans-serif;
+	color:#42273B;
+	font-size: 35px;
+}
+.relevance h1{
+	font-family: 'Nunito', sans-serif;
+	color:#42273B;
+	font-size: 19px;
+}
+
+.ResearchProcess {
+	margin-top: 2300px;
+	position: absolute;
+	font-size: 21px;
+	height: 600px;
+	width: 960px;
+	text-align: left;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.ResearchProcess b{
+	font-family: 'Nunito', sans-serif;
+	color:#42273B;
+	font-size: 35px;
+}
+
+.WhatILearned{
+margin-top: 2750px;
+	position: absolute;
+	font-size: 21px;
+	height: 600px;
+	width: 960px;
+	text-align: left;
+	font-family: 'Open Sans', sans-serif;
+}
+.WhatILearned b{
+	font-family: 'Nunito', sans-serif;
+	color:#42273B;
+	font-size: 35px;
+}
+
+.Challenge {
+	margin-top: 3250px;
+	position: absolute;
+	font-size: 21px;
+	height: 600px;
+	width: 470px;
+	text-align: left;
+	font-family: 'Open Sans', sans-serif;
+}
+.Challenge b{
+	font-family: 'Nunito', sans-serif;
+	color:#42273B;
+	font-size: 35px;
+}
+
+.Highlight {
+	margin-top: 3250px;
+	position: absolute;
+	font-size: 21px;
+	height: 600px;
+	margin-left: 485px;
+	width: 470px;
+	text-align: left;
+	font-family: 'Open Sans', sans-serif;
+}
+.Highlight b{
+	font-family: 'Nunito', sans-serif;
+	color:#42273B;
+	font-size: 35px;
+}
+
+.Question {
+	margin-top: 3550px;
+	position: absolute;
+	font-size: 40px;
+	height: 111px;
+	width: 960px;
+	text-align: center;
+	font-family: 'Snowburst One', cursive;
+	color: #70566D;
+}
+
+.Question:hover{
+	background-color:#9EE493;
+	}
